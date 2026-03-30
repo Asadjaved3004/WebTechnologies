@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: Arial, sans-serif;
+            font-size: large;
+            background-color: blue;
+        }
+        #Header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100px;
+            background-color: lightgray;
+        }
+        #Header h1{
+            background-color: white;
+            padding: 10px;
+        }
+        section:nth-child(2){
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            background-color: lightgray;
+            padding: 10px;
+        }
+        section:nth-child(2) h1{
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <section id="Header">
+        <h1>hello</h1>
+    </section>
+    <section>
+        <h1>hello</h1>
+    </section>
+</body>
+</html>

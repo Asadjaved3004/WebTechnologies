@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS3 and respnsive dessigns</title>
+    <style>
+      p {
+        font-size: 16px;
+        line-height: 1.5;
+        color: red;
+      }
+      .IETA {
+        font-size: 18px;
+        line-height: 1.8;
+        color: blue;
+      }
+      .IETB {
+        font-size: 14px;
+        line-height: 1.2;
+        color: green;
+      }
+      #rollno {
+        font-size: 24px;
+        line-height: 1.2;
+        color: purple;
+      }
+      * {
+        font-family: Arial, sans-serif;
+        font-size: large;
+        background-color: blue;
+      }
+      .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        background-color: lightgray;
+      }
+      .item {
+        background-color: white;
+        padding: 10px;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        background-color: lightgray;
+        padding: 10px;
+      }
+      .grid-item {
+        background-color: white;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item"><h1>hello</h1></div>
+      <div class="item"><h1>World</h1></div>
+      <div class="item"><h1>Welcome</h1></div>
+      <div class="item">Welcome</div>
+    </div>
+    <div class="grid-container">
+      <div class="grid-item">1</div>
+      <div class="grid-item">2</div>
+      <div class="grid-item">3</div>
+      <div class="grid-item">4</div>
+    </div>
+    <h1 id="rollno">CSS3 and make a responsive designs</h1>
+
+    <p class="IETA">CSS3 and responsive designs</p>
+    <p class="IETB">
+      CSS3 is the latest version of the Cascd screen sizes, from desktop
+      computers to mobile phones. With CSS3, developers can use media queries,
+      flexible grid layouts, and other techniques to create responsive designs
+      that adapt to different screen sizes and orientations.
+    </p>
+    <p>
+      One of the key features of CSS3 is media queries, which allow developers
+      to apply different styles based on the characteristics of the device or
+      screen size. This means that a website can have a different layout and
+      design for desktop users compared to mobile users, providing an optimal
+      user experience across all devices.
+    </p>
+  </body>
+</html>
